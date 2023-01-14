@@ -15,6 +15,7 @@ class Solution:
         else:
             return 0
 
+#this piece of code should not be compiled on leetcode IDE
 if __name__ == "__main__":
     sol = Solution()
     print(sol.reverse(109001))
