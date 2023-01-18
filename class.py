@@ -7,3 +7,4 @@ l = SuperList()
 
 l.append(10)
 print(len(l))
+print(issubclass(SuperList, list))
