@@ -1,17 +1,9 @@
-class A():
-    def sound(self):
-        pass
+class SuperList(list):
+    
+    def __len__(self) -> int:
+        return 1000
 
-class B(A):
-    def sound(self):
-        print('Meow')
+l = SuperList()
 
-class C(A):
-    def sound(self):
-        print('WOw')
-
-if __name__ == '__main__':
-    a = A()
-    a.sound()
-    b = B()
-    b.sound()
+l.append(10)
+print(len(l))
