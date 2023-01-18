@@ -1,3 +1,3 @@
-with open('test.txt', mode='w') as myfile:
-    myfile.write('a')
-    
+with open('test.py', mode='w') as myfile:
+    myfile.write('print(10)')
+
