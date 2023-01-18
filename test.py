@@ -1,5 +1,4 @@
 import random
-import pdb
 
 def average(a, b):
     return (a + b) / 2
@@ -20,7 +19,6 @@ def highest(nums):
     return max(res)
 
 def generator(n):
-    pdb.set_trace()
     return random.sample(range(1, 300), n)
 
 if __name__ == '__main__':
