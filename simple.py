@@ -1,3 +1,7 @@
-with open('test.py', mode='w') as myfile:
-    myfile.write('print(10)')
+import os
+
+if os.path.exists('test.py'):
+    os.remove('test.py')
+else:
+    print('such file does not exist')
 
